@@ -77,6 +77,25 @@ table {
 }
 
 td, th {
-    padding: 1px;
+    padding: 2px;
     border: 1px solid green;
+    text-align: left;
 }
+
+/* ESTILOS MEJORADOS PARA LISTAS */
+ul li:nth-child(odd) {
+    background-color: lightgreen;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+ul li:nth-child(even) {
+    background-color: lightcoral;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.celda-centrada {
+    text-align: center;
+    background-color: aqua;
+    }
