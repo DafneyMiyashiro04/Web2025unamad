@@ -97,5 +97,23 @@ ul li:nth-child(even) {
 
 .celda-centrada {
     text-align: center;
-    background-color: aqua;
-    }
+}
+
+th {
+    padding: 2px;
+    border: 1px solid green;
+    text-align: center;
+}
+
+p::first-line {
+    color: blue;
+}
+
+div li{
+    color: blueviolet;
+}
+
+ul>li {
+    border-top: 1px solid red;
+}
+
