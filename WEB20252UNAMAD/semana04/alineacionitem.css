@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*flex inicio */
+.flex-inicio {
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.flex-inicio div {
+    background-color: aquamarine;
+}
+
+.flex-inicio div:first-child {
+    background-color: yellow;
+}
+
+.flex-inicio div:last-child {
+    background-color: yellow;
+}
+
+/*flex final */
+.flex-final{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.flex-final div {
+    background-color: aquamarine;
+}
+
+.flex-final div:first-child {
+    background-color: yellow;
+}
+
+.flex-final div:last-child {
+    background-color: yellow;
+}
+
+/*flex central */
+.flex-central{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-central div {
+    background-color: aquamarine;
+}
+
+.flex-central div:first-child {
+    background-color: yellow;
+}
+
+.flex-central div:last-child {
+    background-color: yellow;
+}
+
+/*flex between */
+.flex-between{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-between div {
+    background-color: aquamarine;
+}
+
+.flex-between div:first-child {
+    background-color: yellow;
+}
+
+.flex-between div:last-child {
+    background-color: yellow;
+}
+
+/*flex around */
+.flex-around{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.flex-around div {
+    background-color: aquamarine;
+}
+
+.flex-around div:first-child {
+    background-color: yellow;
+}
+
+.flex-around div:last-child {
+    background-color: yellow;
+}
+
+/*flex evenly */
+.flex-evenly{
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.flex-evenly div {
+    background-color: aquamarine;
+}
+
+.flex-evenly div:first-child {
+    background-color: yellow;
+}
+
+.flex-evenly div:last-child {
+    background-color: yellow;
+}
