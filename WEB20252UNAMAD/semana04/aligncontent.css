@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    display: flex;
+    /* flex-wrap: wrap;
+    width: 300px; */
+    align-items: center;
+    /* height: 100vh; */
+    border: 2px solid rebeccapurple;
+}
+
+.box div {
+    width: 120px;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+/* .box div:first-child {
+    height: 200px;
+} */
+
+.box div:nth-child(even){
+    background: yellow;
+}
+
+.box div:nth-child(odd){
+    background: aqua;
+}
