@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo {
+    animation-duration: 10s;
+    animation-name: tituloAnimacion;
+    padding: 10px;
+}
+
+@keyframes tituloAnimacion {
+    from {
+        color: white;
+        background: darkcyan;
+    }
+    to {
+        color: blue;
+        background: gold;
+        font-size: 50px;
+    }
+}
